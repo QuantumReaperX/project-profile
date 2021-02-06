@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    min-height: 5000px;
+    min-width: 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    min-height: auto;
+    transition: 0.2s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 0, 85);
+    font-family: 'Roboto', sans-serif;
+    min-width: 100%;
+    position: relative;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    background-position: center;
+    background-size: 20px 20px;
+    margin-left: 10%;
+    margin-right: 0%;
+}
+
+.name {
+    letter-spacing: 3px;
+    justify-content: space-around;
+    color: whitesmoke;
+    width: 45%
+}
+
+.menu {
+    display: flex;
+    margin-right: 5%;
+    justify-content: space-around;
+    color: whitesmoke;
+    width: 100%;
+    text-align: center;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    padding: 50px 25px;
+    margin-top: 0px;
+}
+
+.menu a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(58, 56, 56);
+}
+
+.content {
+    padding-top: 12%;
+}
+
+.page-title {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    color: ivory;
+    text-align: center;
+    letter-spacing: 3px;
+}
+  
+.story1 {
+    font-size: 40px;
+    color: ivory;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-justify: auto;
+    text-align: center;
+}
+/* style for about me page*/
+.row {
+    padding-left: 5px;
+    width: 100%;
+}
+
+.column {
+    float: left;
+}
+  
+.profile {
+    margin-top: 2%;
+    margin-left: 10%;
+    justify-content: center;
+    position: center;
+}
+
+.biography {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: ivory;
+    justify-content: space-around;
+    text-align: justify;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.achievements {
+    margin-top: 15%;
+}
+
+.certificates {
+    padding-top: 5%;
+    color: ivory;
+    text-align: center;
+    letter-spacing: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.achievements-cont img {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/*style for project page*/
+.menu1 a {
+    color: whitesmoke;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    margin-top: 0px;
+    justify-content: space-around;
+}
+
+.menu1 li {
+    padding: 50px 10px;
+    list-style: none;
+}
+
+.menu1 li:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.menu1 a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.archive {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    min-width: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+.archive a {
+    font-size: 30pt;
+    margin-top: 15%;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(255, 0, 85);
+    min-height: 6vh;
+}
+
+.resources {
+    text-align: center;
+}
+
+.resources a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+/*.column1 {
+    float: left;
+    padding: 2px;
+    margin-left: 15%;
+}
+
